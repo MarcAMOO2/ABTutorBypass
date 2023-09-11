@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/UAC (idk).csproj": {}
+  },
+  "projects": {
+    "/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/UAC (idk).csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/UAC (idk).csproj",
+        "projectName": "UAC (idk)",
+        "projectPath": "/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/UAC (idk).csproj",
+        "packagesPath": "/home/marcus/.nuget/packages/",
+        "outputPath": "/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/marcus/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Bassoon": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "CSCore": {
+              "target": "Package",
+              "version": "[1.2.1.2, )"
+            },
+            "Hardware.Info": {
+              "target": "Package",
+              "version": "[11.1.1.1, )"
+            },
+            "NAudio": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "PortAudioSharp": {
+              "target": "Package",
+              "version": "[0.3.0, )"
+            },
+            "SuperHappyFunDevices": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "libsndfileSharp": {
+              "target": "Package",
+              "version": "[0.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.121/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

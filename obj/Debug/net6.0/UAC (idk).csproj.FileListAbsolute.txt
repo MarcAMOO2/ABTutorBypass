@@ -1,0 +1,44 @@
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/obj/Debug/net6.0/UAC (idk).csproj.AssemblyReference.cache
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/obj/Debug/net6.0/UAC (idk).GeneratedMSBuildEditorConfig.editorconfig
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/obj/Debug/net6.0/UAC (idk).AssemblyInfoInputs.cache
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/obj/Debug/net6.0/UAC (idk).AssemblyInfo.cs
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/obj/Debug/net6.0/UAC (idk).csproj.CoreCompileInputs.cache
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/UAC (idk)
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/UAC (idk).deps.json
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/UAC (idk).runtimeconfig.json
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/UAC (idk).dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/ref/UAC (idk).dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/UAC (idk).pdb
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/obj/Debug/net6.0/UAC (idk).dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/obj/Debug/net6.0/ref/UAC (idk).dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/obj/Debug/net6.0/UAC (idk).pdb
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/obj/Debug/net6.0/UAC (idk).genruntimeconfig.cache
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/NAudio.dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/NAudio.Asio.dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/NAudio.Core.dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/NAudio.Midi.dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/NAudio.Wasapi.dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/NAudio.WinMM.dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/obj/Debug/net6.0/UAC (idk).csproj.CopyComplete
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/Bassoon.dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/libsndfileSharp.dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/NativeLibraryManager.dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/PortAudioSharp.dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/CSCore.dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/Hardware.Info.dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/System.CodeDom.dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/System.Diagnostics.PerformanceCounter.dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/System.Drawing.Common.dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/System.Management.dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/System.Security.Permissions.dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/System.Windows.Extensions.dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Diagnostics.PerformanceCounter.dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Management.dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
