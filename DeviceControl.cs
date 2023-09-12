@@ -51,7 +51,7 @@ namespace DeviceControl {
                 foreach (var device in devices) {
                     Console.WriteLine($"Name: {device.FriendlyName}");
                     Console.WriteLine($"ID: {device.DeviceID}");
-                    Console.WriteLine($"State: {device.}");
+                    Console.WriteLine($"State: {device.DeviceState}");
                     Console.WriteLine($"Device Format: {device.DeviceFormat}");
                     Console.WriteLine();
                 }
