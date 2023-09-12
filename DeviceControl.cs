@@ -1,19 +1,21 @@
 using System;
 using System.Threading;
-using NAudio.CoreAudioApi;
-using NAudio.Wave;
-using NAudio;
+using System.Collections;//arrayList
 using System.Runtime.InteropServices;
 using PortAudioSharp;
 using Bassoon;
 using libsndfileSharp;
 
 using CSCore;
-using Hardware.Info; // fetching audio dev
+using Hardware.Info;
+using System.Linq; // fetching audio dev
+using CSCore.CoreAudioAPI;
 
 namespace DeviceControl {
     public static class Linux {
         static readonly IHardwareInfo hardwareInfo = new HardwareInfo();
+        public static List<string> soundDeviceList = new List<string>();
+        public static string osInfo;
         
         public static void LinuxSituation() {
             Console.WriteLine("Device Operations now handled in Device Control namespace");
@@ -22,23 +24,47 @@ namespace DeviceControl {
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("De-activating all microphones... ");
 
-            int totalProgress = 10;  // The total number of steps in your process
+            int totalProgress = 999;  // The total number of steps in your process
+            int previousCursorPositionTop = Console.CursorTop;
+
+
             for (int progress = 0; progress <= totalProgress; progress++) {
-                hardwareInfo.RefreshAll();
-                
+                // Save the current cursor position
+                int currentCursorPositionTop = Console.CursorTop;
 
+                // Move the cursor to the previous line
+                Console.SetCursorPosition(0, previousCursorPositionTop);
 
+                // Clear the previous line
+                Console.Write(new string(' ', Console.WindowWidth - 1));
+
+                // Move the cursor back to the current line
+                Console.SetCursorPosition(0, currentCursorPositionTop);
                 Global.UpdateLoadingBar(progress, totalProgress);
                 // NAUDIO WONT WORK HERE AS ITS LINUX
+
+                osInfo = hardwareInfo.OperatingSystem.ToString();
+                foreach (var hardware in hardwareInfo.SoundDeviceList) {
+                    soundDeviceList.Append(hardware.ToString());
+                }
+                var devices = MMDeviceEnumerator.EnumerateDevices(DataFlow.Capture, DeviceState.Active);
+                foreach (var device in devices) {
+                    Console.WriteLine($"Name: {device.FriendlyName}");
+                    Console.WriteLine($"ID: {device.DeviceID}");
+                    Console.WriteLine($"State: {device.}");
+                    Console.WriteLine($"Device Format: {device.DeviceFormat}");
+                    Console.WriteLine();
+                }
+
+                previousCursorPositionTop = Console.CursorTop;
 
                 #region LISTING MICROPHONES - LONG
                 
 
-
-
                 #endregion
             }
-            Console.WriteLine($"Full User Report Gathered! \n OS: {hardwareInfo.OperatingSystem}, \n Audio Devices (int): {hardwareInfo.SoundDeviceList.Count}");
+
+            Console.WriteLine($"Full User Report Gathered! \n OS: {hardwareInfo.OperatingSystem} \n Audio Devices (int): {hardwareInfo.SoundDeviceList.Count}");
             foreach (var hardware in hardwareInfo.SoundDeviceList) 
                 Console.WriteLine(hardware);
             Console.WriteLine($"\nTotal of  found and disabled! Task complete!");
@@ -51,15 +77,6 @@ namespace DeviceControl {
 
     public static class Windows {
         public static void WindowsSituation() {
-            // fetch all audio in devices (microphones) using NAudio
-            MMDeviceEnumerator enumerator = new MMDeviceEnumerator();
-            MMDevice defaultAudioDevice = enumerator.GetDefaultAudioEndpoint(DataFlow.Render, Role.Multimedia);
-
-            MMDeviceEnumerator aDevices = new MMDeviceEnumerator();
-            foreach (var device in aDevices.EnumerateAudioEndPoints(DataFlow.Capture, DeviceState.Active))
-            {
-                Console.WriteLine(device.FriendlyName); // Print the friendly name of the audio capture device
-            }
         }
     }
 

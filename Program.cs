@@ -20,3 +20,10 @@ namespace ScreenAfinity {
         }
     }
 }
+
+
+// Enviroment Variables
+/* 
+    winmm.dll
+    
+*/

@@ -13,6 +13,7 @@
           "Hardware.Info": "11.1.1.1",
           "NAudio": "2.2.1",
           "PortAudioSharp": "0.3.0",
+          "SuperHappyFunDevices": "1.0.0",
           "libsndfileSharp": "0.2.1"
         },
         "runtime": {
@@ -63,11 +64,118 @@
           }
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/3.1.4": {
+      "Microsoft.AspNetCore.Authorization/5.0.1": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Metadata": "5.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Options": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Authorization.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.120.60107"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Components/5.0.1": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "5.0.1",
+          "Microsoft.AspNetCore.Components.Analyzers": "5.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Components.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.120.60107"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Components.Analyzers/5.0.1": {},
+      "Microsoft.AspNetCore.Components.Forms/5.0.1": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "5.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Components.Forms.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.120.60107"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Components.Web/5.0.1": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "5.0.1",
+          "Microsoft.AspNetCore.Components.Forms": "5.0.1",
+          "Microsoft.Extensions.DependencyInjection": "5.0.1",
+          "Microsoft.JSInterop": "5.0.1",
+          "System.IO.Pipelines": "5.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Components.Web.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.120.60107"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Metadata/5.0.1": {
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Metadata.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.120.60107"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/5.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "5.0.0.1",
+            "fileVersion": "5.0.120.57516"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/5.0.0": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
-            "assemblyVersion": "3.1.4.0",
-            "fileVersion": "3.100.420.21409"
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Primitives": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/5.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.JSInterop/5.0.1": {
+        "runtime": {
+          "lib/net5.0/Microsoft.JSInterop.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.120.60107"
           }
         }
       },
@@ -96,7 +204,7 @@
       },
       "NativeLibraryManager/1.0.23": {
         "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.4"
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/NativeLibraryManager.dll": {
@@ -185,6 +293,17 @@
           }
         }
       },
+      "SuperHappyFunDevices/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "5.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/MediaDeviceLib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "System.CodeDom/7.0.0": {
         "runtime": {
           "lib/net6.0/System.CodeDom.dll": {
@@ -240,6 +359,14 @@
             "assetType": "runtime",
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "System.IO.Pipelines/5.0.1": {
+        "runtime": {
+          "lib/netcoreapp3.0/System.IO.Pipelines.dll": {
+            "assemblyVersion": "5.0.0.1",
+            "fileVersion": "5.0.120.57516"
           }
         }
       },
@@ -351,12 +478,89 @@
       "path": "libsndfilesharp/0.2.1",
       "hashPath": "libsndfilesharp.0.2.1.nupkg.sha512"
     },
-    "Microsoft.Extensions.Logging.Abstractions/3.1.4": {
+    "Microsoft.AspNetCore.Authorization/5.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-JNPxhw2XwhjfGFyIkA5eBfzUDPNpa6Q50HJ2F6lCAMoSa1GquAktTrl4PhEyTYFNmu09B0E90WhYsUb3kmSkOA==",
-      "path": "microsoft.extensions.logging.abstractions/3.1.4",
-      "hashPath": "microsoft.extensions.logging.abstractions.3.1.4.nupkg.sha512"
+      "sha512": "sha512-uqElO13Qq+t9BNkJWqtja3uSkFhbQ5Rej1MiJw6FOF1r77w9szQzuo75u2ddUnZUWUS2shKW9LpuKOnGuMxHGA==",
+      "path": "microsoft.aspnetcore.authorization/5.0.1",
+      "hashPath": "microsoft.aspnetcore.authorization.5.0.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wKzIbnqOHlca2eNKhbvR+myhZR4BdV6ln0B8V4sBgrS+s4YHKH3vlFQFd3ADLlekLVM14u/Va5/jrZKelfxzCQ==",
+      "path": "microsoft.aspnetcore.components/5.0.1",
+      "hashPath": "microsoft.aspnetcore.components.5.0.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.Analyzers/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cNlDQfxgH+YVLI24KvEKxT7uJ5KRGCpuGr/iif7ib12+7RF7Z1huOOklRcxfKG3m5qVkZZ2/Bl3JadCLN/5XhA==",
+      "path": "microsoft.aspnetcore.components.analyzers/5.0.1",
+      "hashPath": "microsoft.aspnetcore.components.analyzers.5.0.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.Forms/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V53j58uowxM/ksCGG1L9EKb5E2sTy1BFrfGdQmrxfjqZof5OwZujXF5eepnEb/OSPyYkRc8HS8DPzxvxGZbvwg==",
+      "path": "microsoft.aspnetcore.components.forms/5.0.1",
+      "hashPath": "microsoft.aspnetcore.components.forms.5.0.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.Web/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V6xFfvYBEpHdKGrLJL9Dk3tRkV3Fke1rMOQ9j24gwKTU+kRNlLgbnPmJLDpFfJ5TcXAhX8VYMhFHlMWZgR0/hA==",
+      "path": "microsoft.aspnetcore.components.web/5.0.1",
+      "hashPath": "microsoft.aspnetcore.components.web.5.0.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Metadata/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7IQHvkskzVn3S7kzboT0CMptRuSep49+sWbvYcZ3u4fiVFvrZEsOxQPCCZ8Tt6RZqHQmtoS77h9GY76j3hkjCw==",
+      "path": "microsoft.aspnetcore.metadata/5.0.1",
+      "hashPath": "microsoft.aspnetcore.metadata.5.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-//mDNrYeiJ0eh/awFhDFJQzkRVra/njU5Y4fyK7X29g5HScrzbUkKOKlyTtygthcGFt4zNC8G5CFCjb/oizomA==",
+      "path": "microsoft.extensions.dependencyinjection/5.0.1",
+      "hashPath": "microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ORj7Zh81gC69TyvmcUm9tSzytcy8AVousi+IVRAI8nLieQjOFryRusSFh7+aLk16FN9pQNqJAiMd7BTKINK0kA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/5.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NxP6ahFcBnnSfwNBi2KH2Oz8Xl5Sm2krjId/jRR3I7teFphwiUoUeZPwTNA21EX+5PtjqmyAvKaOeBXcJjcH/w==",
+      "path": "microsoft.extensions.logging.abstractions/5.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CBvR92TCJ5uBIdd9/HzDSrxYak+0W/3+yxrNg8Qm6Bmrkh5L+nu6m3WeazQehcZ5q1/6dDA7J5YdQjim0165zg==",
+      "path": "microsoft.extensions.options/5.0.0",
+      "hashPath": "microsoft.extensions.options.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cI/VWn9G1fghXrNDagX9nYaaB/nokkZn0HYAawGaELQrl8InSezfe9OnfPZLcJq3esXxygh3hkq2c3qoV3SDyQ==",
+      "path": "microsoft.extensions.primitives/5.0.0",
+      "hashPath": "microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.JSInterop/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5IaWDj9izG3Kfd/mckiTDzUGt7d+Tl4QFtsjlG0Wr0b2D0nlMoW+rZ76BB1ovC/oFo84JLxMIeVIQv7BkbzJIA==",
+      "path": "microsoft.jsinterop/5.0.1",
+      "hashPath": "microsoft.jsinterop.5.0.1.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/5.0.0": {
       "type": "package",
@@ -435,6 +639,13 @@
       "path": "portaudiosharp/0.3.0",
       "hashPath": "portaudiosharp.0.3.0.nupkg.sha512"
     },
+    "SuperHappyFunDevices/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u2dCfyu/PNa9Z5k7phtW9l2CQhCJn+vTNZGk8VFguNCsSb/pDIgayaApI9vEDYI2wDtY9zMW6u9nw1aYEZFaHA==",
+      "path": "superhappyfundevices/1.0.0",
+      "hashPath": "superhappyfundevices.1.0.0.nupkg.sha512"
+    },
     "System.CodeDom/7.0.0": {
       "type": "package",
       "serviceable": true,
@@ -462,6 +673,13 @@
       "sha512": "sha512-KIX+oBU38pxkKPxvLcLfIkOV5Ien8ReN78wro7OF5/erwcmortzeFx+iBswlh2Vz6gVne0khocQudGwaO1Ey6A==",
       "path": "system.drawing.common/7.0.0",
       "hashPath": "system.drawing.common.7.0.0.nupkg.sha512"
+    },
+    "System.IO.Pipelines/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qEePWsaq9LoEEIqhbGe6D5J8c9IqQOUuTzzV6wn1POlfdLkJliZY3OlB0j0f17uMWlqZYjH7txj+2YbyrIA8Yg==",
+      "path": "system.io.pipelines/5.0.1",
+      "hashPath": "system.io.pipelines.5.0.1.nupkg.sha512"
     },
     "System.Management/7.0.0": {
       "type": "package",

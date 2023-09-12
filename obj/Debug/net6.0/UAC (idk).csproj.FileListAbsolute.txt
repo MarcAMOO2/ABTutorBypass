@@ -42,3 +42,59 @@
 /home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Management.dll
 /home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
 /home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/UAC (idk)
+/workspaces/UAC--idk-/bin/Debug/net6.0/UAC (idk).deps.json
+/workspaces/UAC--idk-/bin/Debug/net6.0/UAC (idk).runtimeconfig.json
+/workspaces/UAC--idk-/bin/Debug/net6.0/UAC (idk).dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/UAC (idk).pdb
+/workspaces/UAC--idk-/bin/Debug/net6.0/Bassoon.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/CSCore.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/Hardware.Info.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/libsndfileSharp.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/Microsoft.AspNetCore.Authorization.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/Microsoft.AspNetCore.Components.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Forms.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Web.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/Microsoft.AspNetCore.Metadata.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/Microsoft.JSInterop.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/NativeLibraryManager.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/NAudio.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/NAudio.Asio.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/NAudio.Core.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/NAudio.Midi.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/NAudio.Wasapi.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/NAudio.WinMM.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/PortAudioSharp.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/MediaDeviceLib.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/System.CodeDom.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/System.Diagnostics.PerformanceCounter.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/System.Drawing.Common.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/System.IO.Pipelines.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/System.Management.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/System.Security.Permissions.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/System.Windows.Extensions.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Diagnostics.PerformanceCounter.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Management.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/workspaces/UAC--idk-/obj/Debug/net6.0/UAC (idk).csproj.AssemblyReference.cache
+/workspaces/UAC--idk-/obj/Debug/net6.0/UAC (idk).GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/UAC--idk-/obj/Debug/net6.0/UAC (idk).AssemblyInfoInputs.cache
+/workspaces/UAC--idk-/obj/Debug/net6.0/UAC (idk).AssemblyInfo.cs
+/workspaces/UAC--idk-/obj/Debug/net6.0/UAC (idk).csproj.CoreCompileInputs.cache
+/workspaces/UAC--idk-/obj/Debug/net6.0/UAC (idk).csproj.CopyComplete
+/workspaces/UAC--idk-/obj/Debug/net6.0/UAC (idk).dll
+/workspaces/UAC--idk-/obj/Debug/net6.0/refint/UAC (idk).dll
+/workspaces/UAC--idk-/obj/Debug/net6.0/UAC (idk).pdb
+/workspaces/UAC--idk-/obj/Debug/net6.0/UAC (idk).genruntimeconfig.cache
+/workspaces/UAC--idk-/obj/Debug/net6.0/ref/UAC (idk).dll
