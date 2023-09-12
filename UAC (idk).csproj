@@ -14,7 +14,9 @@
     <PackageReference Include="Hardware.Info" Version="11.1.1.1" />
     <PackageReference Include="libsndfileSharp" Version="0.2.1" />
     <PackageReference Include="NAudio" Version="2.2.1" />
+    <PackageReference Include="NetCoreAudio" Version="1.7.0" />
     <PackageReference Include="PortAudioSharp" Version="0.3.0" />
+    <PackageReference Include="supabase-csharp" Version="0.13.1" />
     <PackageReference Include="SuperHappyFunDevices" Version="1.0.0" />
   </ItemGroup>
 

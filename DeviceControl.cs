@@ -10,13 +10,19 @@ using CSCore;
 using Hardware.Info;
 using System.Linq; // fetching audio dev
 using CSCore.CoreAudioAPI;
+using NetCoreAudio.Interfaces;
+using NetCoreAudio;
+
+// Make sure to run sudo apt-get install libasound2-dev
+// When on Linux
 
 namespace DeviceControl {
     public static class Linux {
         static readonly IHardwareInfo hardwareInfo = new HardwareInfo();
         public static List<string> soundDeviceList = new List<string>();
         public static string osInfo;
-        
+
+
         public static void LinuxSituation() {
             Console.WriteLine("Device Operations now handled in Device Control namespace");
             
@@ -43,18 +49,10 @@ namespace DeviceControl {
                 Global.UpdateLoadingBar(progress, totalProgress);
                 // NAUDIO WONT WORK HERE AS ITS LINUX
 
-                osInfo = hardwareInfo.OperatingSystem.ToString();
-                foreach (var hardware in hardwareInfo.SoundDeviceList) {
-                    soundDeviceList.Append(hardware.ToString());
-                }
-                var devices = MMDeviceEnumerator.EnumerateDevices(DataFlow.Capture, DeviceState.Active);
-                foreach (var device in devices) {
-                    Console.WriteLine($"Name: {device.FriendlyName}");
-                    Console.WriteLine($"ID: {device.DeviceID}");
-                    Console.WriteLine($"State: {device.DeviceState}");
-                    Console.WriteLine($"Device Format: {device.DeviceFormat}");
-                    Console.WriteLine();
-                }
+                // osInfo = hardwareInfo.OperatingSystem.ToString();
+                // foreach (var hardware in hardwareInfo.SoundDeviceList) {
+                //     soundDeviceList.Append(hardware.ToString());
+                // }
 
                 previousCursorPositionTop = Console.CursorTop;
 

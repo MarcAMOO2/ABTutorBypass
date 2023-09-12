@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/UAC--idk-/UAC (idk).csproj": {}
+    "/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/UAC (idk).csproj": {}
   },
   "projects": {
-    "/workspaces/UAC--idk-/UAC (idk).csproj": {
+    "/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/UAC (idk).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/UAC--idk-/UAC (idk).csproj",
+        "projectUniqueName": "/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/UAC (idk).csproj",
         "projectName": "UAC (idk)",
-        "projectPath": "/workspaces/UAC--idk-/UAC (idk).csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/UAC--idk-/obj/",
+        "projectPath": "/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/UAC (idk).csproj",
+        "packagesPath": "/home/marcus/.nuget/packages/",
+        "outputPath": "/home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "/home/marcus/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[2.2.1, )"
             },
+            "NetCoreAudio": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
             "PortAudioSharp": {
               "target": "Package",
               "version": "[0.3.0, )"
@@ -65,6 +69,10 @@
             "libsndfileSharp": {
               "target": "Package",
               "version": "[0.2.1, )"
+            },
+            "supabase-csharp": {
+              "target": "Package",
+              "version": "[0.13.1, )"
             }
           },
           "imports": [
@@ -73,31 +81,16 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.20, 6.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[6.0.20, 6.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.20, 6.0.20]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.306/sdk/7.0.306/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.121/RuntimeIdentifierGraph.json"
         }
       }
     }
