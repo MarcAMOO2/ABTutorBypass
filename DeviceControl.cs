@@ -20,7 +20,7 @@ namespace DeviceControl {
     public static class Linux {
         static readonly IHardwareInfo hardwareInfo = new HardwareInfo();
         public static List<string> soundDeviceList = new List<string>();
-        public static string osInfo;
+        public static string? osInfo;
 
 
         public static void LinuxSituation() {
@@ -58,6 +58,7 @@ namespace DeviceControl {
 
                 #region LISTING MICROPHONES - LONG
                 
+
 
                 #endregion
             }

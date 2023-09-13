@@ -124,3 +124,17 @@
 /home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/Supabase.Storage.dll
 /home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/System.Reactive.dll
 /home/marcus/Desktop/Programing/c#/Hacking/UAC (idk)/bin/Debug/net6.0/Websocket.Client.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/Supabase.Functions.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/Supabase.Gotrue.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/JWTDecoder.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/System.ComponentModel.Composition.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/MimeMapping.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/NetCoreAudio.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/Newtonsoft.Json.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/Supabase.Postgrest.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/Supabase.Realtime.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/Supabase.Core.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/Supabase.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/Supabase.Storage.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/System.Reactive.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/Websocket.Client.dll

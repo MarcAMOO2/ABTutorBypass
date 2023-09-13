@@ -10,31 +10,43 @@ namespace ScreenAfinity {
 
 
     public class Program {
+        static Supabase.Client? supabase;
         
-        
-        public static void Main(string[] args) {
+        public static async Task Main(string[] args) {
             // Initalisation();
-            SupabaseConnect();
+            await SupabaseConnect();
         }
 
-        public static async void SupabaseConnect() {      
+        public static async Task SupabaseConnect() {      
             try
             {
-                var supabase = new Supabase.Client("https://ytrhpeeeatvgbgxtsxae.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inl0cmhwZWVlYXR2Z2JneHRzeGFlIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTIwNzQ3NDIsImV4cCI6MjAwNzY1MDc0Mn0.p45vt004-Ls0W6cxdC3x3VkVFAZ59QBOJpOlzW-0L5k");
-                var init = await supabase.InitializeAsync();
+                supabase = new Supabase.Client("https://czbesaouzimntuctbook.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN6YmVzYW91emltbnR1Y3Rib29rIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTY5NDU2Mjc5OSwiZXhwIjoyMDEwMTM4Nzk5fQ.ydwuZeD2SHbxpsq5d9Sgj083zMWS6QXg5pl8M_aBiKM", new Supabase.SupabaseOptions { AutoConnectRealtime = true });
+                await supabase.InitializeAsync();
                 Console.WriteLine("CONNECTED!");
 
+                var storage = supabase.Storage;
+                var exists = await storage.GetBucket("audio") != null;
+                if (!exists)
+                    await storage.CreateBucket("NULLFoundX", new Supabase.Storage.BucketUpsertOptions { Public = true });
+                var buckets = await storage.ListBuckets();
+
+                foreach (var b in buckets)
+                    Console.WriteLine($"[{b.Id}] {b.Name}");
                 
-                var bucket = await supabase.Storage.GetBucket("audio");
-                Console.WriteLine(bucket.Name);
+                var bytes = await supabase.Storage
+                .From("audio")
+                .Download("pickupCoin.wav", (sender, progress) => Console.WriteLine($"{progress}%"));
+
             }
             catch (Exception ex)
             {
                 Console.WriteLine("An unexpected error occurred: " + ex.Message);
+                Console.WriteLine("Stack Trace: " + ex.StackTrace); // Log the stack trace
             }
         }
 
-        public static async void Initalisation() {
+
+        public static void Initalisation() {
             Console.WriteLine("[DISCLAIMER] You are allowing your network to connect to an online database and fetch updates from there. \n There is no negative impact from this.");
             Console.WriteLine("[INFO] - What platform are you currently operating? [1] Windows, [2] MacOS, [3] Linux (Ubuntu only)");
             var platform = Console.ReadLine();
@@ -46,7 +58,7 @@ namespace ScreenAfinity {
 
                 
 
-                    //DeviceControl.Linux.LinuxSituation();
+                    DeviceControl.Linux.LinuxSituation();
 
                 } catch (Exception e) {
                     Console.WriteLine($"[ERROR] An error occurred: {e.Message}");
