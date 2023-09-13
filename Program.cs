@@ -5,6 +5,7 @@ using NAudio.Wave;
 using Supabase;
 using Supabase.Storage;
 using System.Threading;
+using System.Security.AccessControl;
 
 namespace ScreenAfinity {
 
@@ -22,6 +23,7 @@ namespace ScreenAfinity {
             {
                 supabase = new Supabase.Client("https://czbesaouzimntuctbook.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN6YmVzYW91emltbnR1Y3Rib29rIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTY5NDU2Mjc5OSwiZXhwIjoyMDEwMTM4Nzk5fQ.ydwuZeD2SHbxpsq5d9Sgj083zMWS6QXg5pl8M_aBiKM", new Supabase.SupabaseOptions { AutoConnectRealtime = true });
                 await supabase.InitializeAsync();
+
                 Console.WriteLine("CONNECTED!");
 
                 var storage = supabase.Storage;
@@ -34,8 +36,12 @@ namespace ScreenAfinity {
                     Console.WriteLine($"[{b.Id}] {b.Name}");
                 
                 var bytes = await supabase.Storage
-                .From("audio")
-                .Download("pickupCoin.wav", (sender, progress) => Console.WriteLine($"{progress}%"));
+                    .From("audio")
+                    .Download("pickupCoin.wav", "./", (sender, progress) => Console.WriteLine($"{progress}%"));
+                
+                var objects = await supabase.Storage.From("audio").List();
+                foreach(var o in objects) 
+                    Console.WriteLine($"[{o.Buckets}] {o.Id}");
 
             }
             catch (Exception ex)

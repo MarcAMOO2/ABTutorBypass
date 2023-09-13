@@ -1,0 +1,59 @@
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/UAC (idk)
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/UAC (idk).dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/UAC (idk).deps.json
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/UAC (idk).runtimeconfig.json
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/UAC (idk).pdb
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/Bassoon.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/CSCore.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/Supabase.Functions.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/Supabase.Gotrue.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/Hardware.Info.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/JWTDecoder.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/System.ComponentModel.Composition.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/libsndfileSharp.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/Microsoft.AspNetCore.Authorization.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/Microsoft.AspNetCore.Components.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/Microsoft.AspNetCore.Components.Forms.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/Microsoft.AspNetCore.Components.Web.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/Microsoft.AspNetCore.Metadata.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/Microsoft.Extensions.DependencyInjection.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/Microsoft.Extensions.Logging.Abstractions.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/Microsoft.Extensions.Options.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/Microsoft.Extensions.Primitives.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/Microsoft.JSInterop.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/Microsoft.Win32.SystemEvents.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/MimeMapping.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/NativeLibraryManager.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/NAudio.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/NAudio.Asio.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/NAudio.Core.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/NAudio.Midi.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/NAudio.Wasapi.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/NAudio.WinMM.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/NetCoreAudio.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/Newtonsoft.Json.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/PortAudioSharp.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/Supabase.Postgrest.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/Supabase.Realtime.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/Supabase.Core.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/Supabase.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/Supabase.Storage.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/MediaDeviceLib.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/System.CodeDom.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/System.Configuration.ConfigurationManager.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/System.Diagnostics.PerformanceCounter.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/System.Drawing.Common.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/System.IO.Pipelines.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/System.Management.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/System.Reactive.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/System.Security.Cryptography.ProtectedData.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/System.Security.Permissions.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/System.Windows.Extensions.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/Websocket.Client.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/runtimes/win/lib/net6.0/System.Diagnostics.PerformanceCounter.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/runtimes/win/lib/net6.0/System.Management.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/workspaces/UAC--idk-/bin/Debug/net6.0/publish/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
